@@ -1,13 +1,13 @@
+
 # 🏢 Office Employee Management System
 
 ![Banner](https://user-images.githubusercontent.com/yourusername/office-banner.png)
 
-[![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)]()
-[![Django](https://img.shields.io/badge/Django-5.2.4-green?logo=django&logoColor=white)]()
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap&logoColor=white)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
+| ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white) | ![Django](https://img.shields.io/badge/Django-5.2.4-green?logo=django&logoColor=white) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap&logoColor=white) | ![License](https://img.shields.io/badge/License-MIT-blue.svg) |
+|---|---|---|---|
 
-A **modern Office Employee Management System** built with **Django**, **Bootstrap 5**, and **custom CSS**. It provides a **clean, animated, and responsive UI** to **view, add, remove, and filter employees efficiently**.
+A **modern Office Employee Management System** built with **Django**, **Bootstrap 5**, and **custom CSS**.  
+It provides a **clean, animated, and responsive UI** to **view, add, remove, and filter employees efficiently**.
 
 ---
 
@@ -41,62 +41,104 @@ A **modern Office Employee Management System** built with **Django**, **Bootstra
 
 ## 📂 Project Structure
 
-office_emp_proj/
-├── emp_app/ # Django app for employee management
-├── office_emp_proj/ # Project settings
-├── db.sqlite3 # SQLite database
-├── manage.py # Django management script
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+```
+
+office\_emp\_proj/
+├── emp\_app/                # Django app for employee management
+├── office\_emp\_proj/        # Project settings
+├── db.sqlite3              # SQLite database
+├── manage.py               # Django management script
+├── requirements.txt        # Dependencies
+└── README.md               # Project documentation
+
+````
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Backend:** Django 5.x, Python 3.x  
-- **Frontend:** Bootstrap 5, HTML, CSS  
-- **Database:** SQLite3  
-- **Tools:** Git, VSCode, Chrome DevTools  
+| Backend | Frontend | Database | Tools |
+|---------|----------|---------|-------|
+| Django 5.x, Python 3.x | Bootstrap 5, HTML, CSS | SQLite3 | Git, VSCode, Chrome DevTools |
 
 ---
 
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/YourUsername/office-employee-management.git
 cd office-employee-management
-2️⃣ Create Virtual Environment
+````
+
+### 2️⃣ Create Virtual Environment
+
+```bash
 python -m venv venv
-3️⃣ Activate Environment
-Windows:
+```
+
+### 3️⃣ Activate Environment
+
+**Windows:**
+
+```bash
 venv\Scripts\activate
-Mac/Linux:
+```
+
+**Mac/Linux:**
+
+```bash
 source venv/bin/activate
-4️⃣ Install Dependencies
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-5️⃣ Run Migrations
+```
+
+### 5️⃣ Run Migrations
+
+```bash
 python manage.py migrate
-6️⃣ Run Server
+```
+
+### 6️⃣ Run Server
+
+```bash
 python manage.py runserver
-Open http://127.0.0.1:8000 in your browser.
+```
 
-🎯 Future Improvements
-🌐 User authentication with roles (Admin/HR/Employee)
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
-📊 Dashboard analytics for employee stats
+---
 
-🌙 Dark mode toggle with animations
+## 🎯 Future Improvements
 
-💾 Export employee data (CSV/PDF)
+* 🌐 **User authentication** with roles (Admin/HR/Employee)
+* 📊 **Dashboard analytics** for employee stats
+* 🌙 **Dark mode toggle** with animations
+* 💾 **Export employee data** (CSV/PDF)
+* ☁️ **Deploy to cloud** (Render/Heroku)
 
-☁️ Deploy to cloud (Render/Heroku)
+---
 
-👨‍💼 Author
-Vikash Kumar Gupta
-📧 vikashkumargupta907@gmail.com
-🔗 LinkedIn | GitHub
+## 👨‍💼 Author
 
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+**Vikash Kumar Gupta**
+📧 [vikashkumargupta907@gmail.com](mailto:vikashkumargupta907@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/vikash1995) | [GitHub](https://github.com/KrVikashGupta)
 
-<p align="center"> Made with ❤️ using Django & Bootstrap 5 </p> ```
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  Made with ❤️ using Django & Bootstrap 5
+</p>
+```
+
