@@ -30,14 +30,6 @@ It provides a **clean, animated, and responsive UI** to **view, add, remove, and
 
 ---
 
-## 🎬 Demo
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Demo GIF" width="700"/>
-</p>
-
----
-
 ## 🖼 Screenshots
 
 <p align="center">
