@@ -35,8 +35,8 @@ A modern, **feature-rich Office Employee Management System** built with **Django
 ## 🖼 Screenshots
 
 <p align="center">
- <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="800"/>
- <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="800"/>
+ <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="900"/>
+ <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="900"/>
 
 </p>
 
