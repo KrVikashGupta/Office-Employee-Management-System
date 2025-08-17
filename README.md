@@ -5,8 +5,6 @@
  <img src="office_emp_proj/banner.png" alt="Banner" width="1000"/>
 
 </p>
-![Banner](https://user-images.githubusercontent.com/yourusername/office-banner.png)
-office_emp_proj/banner.png
 
 <div align="center">
   <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
@@ -19,8 +17,7 @@ office_emp_proj/banner.png
 
 <div style="height:4px;background:linear-gradient(90deg, #ff7e5f, #feb47b);margin:20px 0;"></div>
 
-A **modern Office Employee Management System** built with **Django**, **Bootstrap 5**, and **custom CSS**.  
-It provides a **clean, animated, and responsive UI** to **view, add, remove, and filter employees efficiently**.
+A modern, **feature-rich Office Employee Management System** built with **Django**, designed to streamline HR and office operations. It provides a clean, responsive, and interactive user interface using **Bootstrap 5** and **custom CSS,** allowing administrators to efficiently view, add, update, delete, and filter employee records. With an intuitive dashboard and **smooth animations**, managing employee data has never been easier.
 
 ---
 
