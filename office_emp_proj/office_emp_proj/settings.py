@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+<<<<<<< HEAD
 import dj_database_url  # ✅ make sure this is installed
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -8,11 +9,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
+=======
+import dj_database_url  # make sure this is in requirements.txt
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')
+
+>>>>>>> origin/main
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
+<<<<<<< HEAD
 # Application definition
+=======
+>>>>>>> origin/main
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -20,12 +32,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'emp_app',
+    'emp_app',   # your app
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',  # ✅ must be here
+=======
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # important for static files
+>>>>>>> origin/main
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -54,7 +70,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'office_emp_proj.wsgi.application'
 
+<<<<<<< HEAD
 # ✅ Database: Use Postgres in production, SQLite locally
+=======
+# ✅ Use Postgres if DATABASE_URL exists, else use SQLite
+>>>>>>> origin/main
 DATABASES = {
     'default': dj_database_url.config(
         default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
@@ -81,5 +101,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+<<<<<<< HEAD
 # Default primary key field type
+=======
+>>>>>>> origin/main
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
