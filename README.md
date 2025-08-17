@@ -78,7 +78,7 @@ office\_emp\_proj/
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/YourUsername/office-employee-management.git
+git clone https://github.com/KrVikashGupta/office-employee-management.git
 cd office-employee-management
 ````
 
