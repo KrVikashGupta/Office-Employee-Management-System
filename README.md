@@ -33,8 +33,9 @@ It provides a **clean, animated, and responsive UI** to **view, add, remove, and
 ## 🖼 Screenshots
 
 <p align="center">
-  <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="400"/>
-  <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="400"/>
+ <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="800"/>
+ <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="800"/>
+
 </p>
 
 ---
