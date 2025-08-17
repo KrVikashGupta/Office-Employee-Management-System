@@ -2,8 +2,7 @@
 # 🏢 Office Employee Management System
 
 <p align="center">
- <img src="office_emp_proj/banner.png" alt="Banner" width="1000"/>
-
+  <img src="office_emp_proj/banner.png" alt="Banner" width="100%" style="max-width:1000px; height:auto; border-radius:10px;"/>
 </p>
 
 <div align="center">
@@ -35,9 +34,9 @@ A modern, **feature-rich Office Employee Management System** built with **Django
 ## 🖼 Screenshots
 
 <p align="center">
- <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="900"/>
- <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="900"/>
-
+  <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:10px; margin-bottom:20px;"/>
+  <br/>
+  <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:10px;"/>
 </p>
 
 ---
@@ -125,7 +124,6 @@ Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 * 📊 **Dashboard analytics** for employee stats
 * 🌙 **Dark mode toggle** with animations
 * 💾 **Export employee data** (CSV/PDF)
-* ☁️ **Deploy to cloud** (Render/Heroku)
 
 ---
 
