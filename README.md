@@ -1,7 +1,12 @@
 
 # 🏢 Office Employee Management System
 
+<p align="center">
+ <img src="office_emp_proj/banner.png" alt="Banner" width="1000"/>
+
+</p>
 ![Banner](https://user-images.githubusercontent.com/yourusername/office-banner.png)
+office_emp_proj/banner.png
 
 <div align="center">
   <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
