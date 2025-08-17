@@ -1,42 +1,49 @@
 
+```markdown
 # 🏢 Office Employee Management System
 
 <p align="center">
-  <img src="office_emp_proj/banner.png" alt="Banner" width="100%" style="max-width:1000px; height:auto; border-radius:10px;"/>
+  <img src="office_emp_proj/banner.png" alt="Banner" width="100%" style="max-width:1000px; height:auto; border-radius:12px;"/>
 </p>
 
 <div align="center">
-  <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/Django-5.2.4-success?style=for-the-badge&logo=django&logoColor=white" alt="Django" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#" style="transition: transform 0.3s;"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Django-5.2.4-success?style=for-the-badge&logo=django&logoColor=white" alt="Django" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
 </div>
 
 ---
 
 <div style="height:4px;background:linear-gradient(90deg, #ff7e5f, #feb47b);margin:20px 0;"></div>
 
-A modern, **feature-rich Office Employee Management System** built with **Django**, designed to streamline HR and office operations. It provides a clean, responsive, and interactive user interface using **Bootstrap 5** and **custom CSS,** allowing administrators to efficiently view, add, update, delete, and filter employee records. With an intuitive dashboard and **smooth animations**, managing employee data has never been easier.
+A **modern, feature-rich Office Employee Management System** built with **Django**, designed to **streamline HR and office operations**. It provides a **clean, responsive, and interactive UI** using **Bootstrap 5** and **custom CSS**, allowing administrators to:
+
+- View, add, update, and delete employee records  
+- Filter employees by department, designation, or status  
+- Enjoy smooth animations and responsive layouts  
+
+Managing employee data has never been this simple and visually appealing!
 
 ---
 
 ## ✨ Features
 
 - ✅ **CRUD operations**: Add, edit, delete employee records  
-- 🔍 **Filter employees** by department, designation, or status  
-- 🎨 **Responsive UI** with animations  
-- 💻 **Bootstrap 5 + custom CSS** for a modern look  
-- 🗄 **SQLite3 database** for simplicity  
-- ⚙ **Fully functional Django backend**
+- 🔍 **Advanced filtering**: Department, designation, or status  
+- 🎨 **Responsive UI** with smooth animations  
+- 💻 **Bootstrap 5 + Custom CSS** for a modern design  
+- 🗄 **SQLite3 database** for lightweight simplicity  
+- ⚙ **Fully functional Django backend** with intuitive dashboard  
 
 ---
 
 ## 🖼 Screenshots
 
 <p align="center">
-  <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:10px; margin-bottom:20px;"/>
+  <img src="office_emp_proj/dashboard_light.png" alt="Light Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:12px; margin-bottom:20px;"/>
   <br/>
-  <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:10px;"/>
+  <img src="office_emp_proj/dashboard_dark.png" alt="Dark Mode Dashboard" width="90%" style="max-width:900px; height:auto; border-radius:12px;"/>
 </p>
 
 ---
@@ -60,10 +67,10 @@ office\_emp\_proj/
 ## 🛠 Tech Stack
 
 <div align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Backend-Django-blue?style=for-the-badge&logo=django&logoColor=white" alt="Django" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Frontend-Bootstrap%205-purple?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Database-SQLite3-orange?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Tools-VSCode-green?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Backend-Django-blue?style=for-the-badge&logo=django&logoColor=white" alt="Django" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Frontend-Bootstrap%205-purple?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Database-SQLite3-orange?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Tools-VSCode-green?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/></a>
 </div>
 
 ---
@@ -102,13 +109,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Run Migrations
+### 5️⃣ Apply Migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### 6️⃣ Run Server
+### 6️⃣ Run Development Server
 
 ```bash
 python manage.py runserver
@@ -121,7 +128,7 @@ Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 ## 🎯 Future Improvements
 
 * 🌐 **User authentication** with roles (Admin/HR/Employee)
-* 📊 **Dashboard analytics** for employee stats
+* 📊 **Dashboard analytics** for employee statistics
 * 🌙 **Dark mode toggle** with animations
 * 💾 **Export employee data** (CSV/PDF)
 
@@ -145,4 +152,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
   Made with ❤️ using Django & Bootstrap 5
 </p>
 ```
+
+---
 
